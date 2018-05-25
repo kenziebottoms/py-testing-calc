@@ -12,8 +12,18 @@ class Calculator():
         """Adds two numbers together
 
         Arguments:
-          x - Any number
-          y - An number
+            x - Any number
+            y - Any number
         """
 
         return x + y
+
+    def subtract(self, x, y):
+        """Subtracts the second number from the first
+
+        Arguments:
+            x - Any number
+            y - Any number
+        """
+
+        return x - y

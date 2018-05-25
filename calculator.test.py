@@ -24,6 +24,9 @@ class TestCalculator(unittest.TestCase):
     def test_add(self):
         self.assertEqual(self.calc.add(2, 7), 9)
 
+    def test_sub(self):
+        self.assertEqual(self.calc.subtract(7, 2), 5)
+
     # Write test methods for subtract, multiply, and divide
 
 

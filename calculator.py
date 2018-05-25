@@ -27,3 +27,23 @@ class Calculator():
         """
 
         return x - y
+    
+    def multiply(self, x, y):
+        """Multiplies the two numbers together
+
+        Arguments:
+            x - Any number
+            y - Any number
+        """
+
+        return x * y
+    
+    def divide(self, x, y):
+        """Multiplies the first number by the second
+
+        Arguments:
+            x - Any number
+            y - Any number
+        """
+
+        return x / y

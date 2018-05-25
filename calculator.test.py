@@ -1,7 +1,6 @@
 import unittest
 from calculator import Calculator
 
-
 class TestCalculator(unittest.TestCase):
 
     @classmethod
@@ -24,9 +23,6 @@ class TestCalculator(unittest.TestCase):
     
     def test_div(self):
         self.assertEqual(self.calc.divide(4, 2), 2)
-
-    # Write test methods for subtract, multiply, and divide
-
 
 if __name__ == '__main__':
     unittest.main()

@@ -1,6 +1,6 @@
 # Calculator Unit Tests
 
-Just like you did in JavaScript when you learned about Jasmine, you're going to create a class that test the functionality of a `Calculator` class.
+You're going to create a class that tests the functionality of a `Calculator` class.
 
 - [x] addition
   - [x] tests

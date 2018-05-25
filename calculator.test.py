@@ -2,14 +2,6 @@ import unittest
 from calculator import Calculator
 
 
-def setUpModule():
-    print('Setting up module...')
-
-
-def tearDownModule():
-    print('Tearing down module...')
-
-
 class TestCalculator(unittest.TestCase):
 
     @classmethod
@@ -26,6 +18,12 @@ class TestCalculator(unittest.TestCase):
 
     def test_sub(self):
         self.assertEqual(self.calc.subtract(7, 2), 5)
+
+    def test_mult(self):
+        self.assertEqual(self.calc.multiply(4, 2), 8)
+    
+    def test_div(self):
+        self.assertEqual(self.calc.divide(4, 2), 2)
 
     # Write test methods for subtract, multiply, and divide
 
